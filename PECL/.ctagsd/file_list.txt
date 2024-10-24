@@ -1,0 +1,17 @@
+C:\Programacion\Codelite\PECL\PECL\Proceso.hpp
+C:\Programacion\Codelite\PECL\PECL\NodoCola.hpp
+C:\Programacion\Codelite\PECL\PECL\Pila.hpp
+C:\Programacion\Codelite\PECL\PECL\Cola.hpp
+C:\Programacion\Codelite\PECL\PECL\Proceso.cpp
+C:\Programacion\Codelite\PECL\PECL\Lista.hpp
+C:\Programacion\Codelite\PECL\PECL\NodoLista.cpp
+C:\Programacion\Codelite\PECL\PECL\Gestor.hpp
+C:\Programacion\Codelite\PECL\PECL\NodoPila.hpp
+C:\Programacion\Codelite\PECL\PECL\NodoPila.cpp
+C:\Programacion\Codelite\PECL\PECL\Pila.cpp
+C:\Programacion\Codelite\PECL\PECL\Lista.cpp
+C:\Programacion\Codelite\PECL\PECL\Gestor.cpp
+C:\Programacion\Codelite\PECL\PECL\NodoLista.hpp
+C:\Programacion\Codelite\PECL\PECL\NodoCola.cpp
+C:\Programacion\Codelite\PECL\PECL\Cola.cpp
+C:\Programacion\Codelite\PECL\PECL\main.cpp
