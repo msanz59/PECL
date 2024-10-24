@@ -7,6 +7,7 @@ public:
 	Proceso();
 	~Proceso();
 
+
 };
 
 #endif // PROCESO_HPP
