@@ -9,13 +9,14 @@ class Proceso
 {
 public:
 	Proceso();
+	void setombrenorandom();
 	int getNumerounico();
 	int getPrioridad();
 	bool getEstado();
 	bool getTipo();
 	char getNombre();
 	void setNumerounico(int num);
-	void setNombre();
+	void setNombrerand();
 	void setEstado(bool est);
 	void setPrioridad(int num);
 	void setTipo(int tip);

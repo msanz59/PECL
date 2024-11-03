@@ -6,9 +6,9 @@
 Proceso::Proceso()
 {
 	this->tipo = (rand() %2);
-	setNumerounico(rand() % 700 + 300); //num entre 300 y 999
+	this->numerounico = (rand() % 700 + 300); //num entre 300 y 999
 	this->estado = (rand() %2);
-	setNombre();
+	setNombrerand();
 }
 
 Proceso::~Proceso()
@@ -27,7 +27,9 @@ bool Proceso::getEstado()
 bool Proceso::getTipo()
 { return this->tipo; }
 char Proceso::getNombre()
-{ return this->nombre[10]; }
+{ 
+	cout << this->nombre;
+	return this->nombre[10]; }
 void Proceso::setNumerounico(int num)
 { 
 		if(num <= 300)
@@ -35,7 +37,7 @@ void Proceso::setNumerounico(int num)
 		else
 			this->numerounico = 0;
 }
-void Proceso::setNombre()
+void Proceso::setNombrerand()
 {
 		for (int i = 0; i<9; i++){
 			int random_char = rand() % 62;
@@ -49,6 +51,8 @@ void Proceso::setNombre()
 		}
 		this->nombre[9] = '\0';
 }
+void Proceso::setombrenorandom()
+{}
 void Proceso::setEstado(bool est)
 {}
 void Proceso::setPrioridad(int num)
