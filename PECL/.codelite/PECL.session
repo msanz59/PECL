@@ -1,59 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\msanz\Documents\GitHub\PECL\PECL\PECL.workspace">
-  <int Value="5" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\msanz\Documents\GitHub\PECL\PECL\PECL.workspace" Name="m_workspaceName"/>
+<Session Name="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL.workspace">
+  <int Value="2" Name="m_selectedTab"/>
+  <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\msanz\Documents\GitHub\PECL\PECL\PECL\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="8" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\msanz\Documents\GitHub\PECL\PECL\PECL\Pila.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\Pila.hpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\msanz\Documents\GitHub\PECL\PECL\PECL\Pila.hpp" Name="FileName"/>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\Pila.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\msanz\Documents\GitHub\PECL\PECL\PECL\Gestor.hpp" Name="FileName"/>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\Cola.cpp" Name="FileName"/>
+      <int Value="17" Name="FirstVisibleLine"/>
+      <int Value="29" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds">
+        <IntVectorItem Value="22"/>
+      </IntVector>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\Cola.hpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="15" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\main.cpp" Name="FileName"/>
+      <int Value="81" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\NodoPila.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\msanz\Documents\GitHub\PECL\PECL\PECL\Gestor.cpp" Name="FileName"/>
-      <int Value="2" Name="FirstVisibleLine"/>
-      <int Value="14" Name="CurrentLine"/>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\NodoPila.hpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\msanz\Documents\GitHub\PECL\PECL\PECL\Proceso.cpp" Name="FileName"/>
-      <int Value="6" Name="FirstVisibleLine"/>
-      <int Value="10" Name="CurrentLine"/>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\NodoCola.hpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="19" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\msanz\Documents\GitHub\PECL\PECL\PECL\Proceso.hpp" Name="FileName"/>
-      <int Value="6" Name="FirstVisibleLine"/>
-      <int Value="11" Name="CurrentLine"/>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\NodoCola.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="5" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\msanz\Documents\GitHub\PECL\PECL\PECL\NodoPila.hpp" Name="FileName"/>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\NodoLista.hpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\Gestor.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\Proceso.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="13" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\Gestor.hpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\Lista.hpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\Proceso.hpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\Lista.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\david\OneDrive\Documentos\Sesion1EsDatos\PECL\PECL\PECL\NodoLista.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>

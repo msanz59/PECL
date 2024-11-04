@@ -1,69 +1,69 @@
 [{
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Proceso.hpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Proceso.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Proceso.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoPila.hpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoPila.hpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoPila.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoPila.hpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoPila.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoPila.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoCola.hpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoCola.hpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoCola.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.hpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Pila.hpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Pila.hpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Pila.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Pila.hpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Pila.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Pila.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Cola.hpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Cola.hpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Cola.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Cola.hpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Cola.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Cola.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Gestor.hpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Gestor.hpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Gestor.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Lista.hpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Lista.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Lista.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Pila.cpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Pila.cpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Pila.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\main.cpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\main.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoCola.cpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoCola.cpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoCola.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Gestor.hpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Gestor.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Gestor.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Lista.cpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Lista.cpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Lista.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Proceso.cpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Proceso.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Proceso.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoLista.hpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoLista.hpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoLista.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.cpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Lista.hpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Lista.hpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Lista.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoPila.cpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoPila.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoPila.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Proceso.cpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Proceso.cpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Proceso.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoLista.hpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoLista.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoLista.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoLista.cpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoLista.cpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoLista.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Gestor.cpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Gestor.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Gestor.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Cola.cpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Cola.cpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Cola.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Pila.cpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Pila.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Pila.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Gestor.cpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Gestor.cpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Gestor.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Lista.cpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Lista.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Lista.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoPila.cpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoPila.cpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\NodoPila.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoLista.cpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoLista.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoLista.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Proceso.hpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Proceso.hpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\Proceso.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Cola.cpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Cola.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Cola.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\main.cpp",
+  "directory": "C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\main.cpp -o C:\\Users\\david\\OneDrive\\Documentos\\Sesion1EsDatos\\PECL\\PECL\\PECL\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }]
