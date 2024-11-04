@@ -1,4 +1,5 @@
 #include "NodoCola.hpp"
+#include "Proceso.hpp"
 
 class Cola
 {
@@ -6,10 +7,12 @@ public:
 	Cola();
 	~Cola();
 	
-	void insertar(int v);
-	int eliminar();
+	void insertar(Proceso v);
+	Proceso eliminar();
 	void mostrar();
-	int verPrimero();
+	Proceso verPrimero();
+	int getLongitud();
+	void vaciar();
 	
 private:
 	pnodoCola primero, ultimo;

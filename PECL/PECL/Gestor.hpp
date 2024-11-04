@@ -1,5 +1,7 @@
 #ifndef GESTOR_HPP
 #define GESTOR_HPP
+#include "Pila.hpp"
+#include "Cola.hpp"
 
 class Gestor
 {
@@ -21,6 +23,20 @@ public:
 	void eliminarProcesoPorPID();
 	void cambiarPrioridadProcesoPorPID();
 	void reiniciar();
+	int ProcesosEnPila();
+	int ProcesosEnGPU0();
+	int ProcesosEnGPU1();
+	int ProcesosEnGPU2();
+	int ProcesosEnGPU3();
+
+	
+private:
+	Pila pila;
+	Cola gpu0;
+	Cola gpu1;
+	Cola gpu2;
+	Cola gpu3;
+	
 
 };
 

@@ -6,7 +6,7 @@ Cola::Cola()
 	ultimo=NULL;
 	longitud=0;
 }
-void Cola::insertar(int v)
+void Cola::insertar(Proceso v)
 {
 	pnodoCola nuevo;
 	nuevo= new NodoCola(v);
@@ -22,20 +22,21 @@ void Cola::insertar(int v)
 void Cola::mostrar()
 {
 	pnodoCola aux = primero;
-	cout << "\tEl contenido de la cola es: " ;
+	cout << "\tEl contenido de la cola es: \n" ;
 	while(aux){
-		cout << "->	" << aux->valor;
+		cout << "->	";
+		aux->valor.toString();
 		aux = aux->siguiente;
 	}
 	cout<<endl;
 }
-int Cola::eliminar()
+Proceso Cola::eliminar()
 {
 	pnodoCola nodo;
-	int v;
+	Proceso v;
 	nodo=primero;
-	if(!nodo)
-		return 0;
+	//if(!nodo)
+		//return 0;
 	primero= nodo->siguiente;
 	v=	nodo->valor;
 	delete nodo;
@@ -44,10 +45,18 @@ int Cola::eliminar()
 	longitud--;
 	return v;	
 }
-int Cola::verPrimero(){
+Proceso Cola::verPrimero(){
+	primero->valor.toString();
 	return primero->valor;
 }
-
+int Cola::getLongitud(){
+	return this->longitud;
+}
+void Cola::vaciar(){
+	while(primero){
+		eliminar();
+	}
+}
 Cola::~Cola()
 {
 	while(primero){

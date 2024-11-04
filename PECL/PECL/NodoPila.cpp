@@ -1,6 +1,7 @@
 #include "NodoPila.hpp"
+#include "Proceso.hpp"
 
-NodoPila::NodoPila(int v, NodoPila* sig)
+NodoPila::NodoPila(Proceso v, NodoPila* sig)
 {
 	valor = v;
 	siguiente = sig;

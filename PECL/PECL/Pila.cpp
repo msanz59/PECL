@@ -1,4 +1,8 @@
 #include "Pila.hpp"
+#include "Proceso.hpp"
+#include <iostream>
+#include <optional>
+using namespace std;
 
 Pila::Pila()
 {
@@ -6,19 +10,19 @@ Pila::Pila()
 	longitud= 0;
 	
 }
-void Pila::insertar(int v)
+void Pila::insertar(Proceso v)
 {
 	pnodoPila nuevo;
 	nuevo = new NodoPila(v, ultimo);
 	ultimo = nuevo;
 	longitud++;
 }
-int Pila::extraer()
+Proceso Pila::extraer()
 {
 	pnodoPila nodo;
-	int v;
-	if(!ultimo)
-		return 0;
+	Proceso v;
+	//if(!ultimo)
+		//return nullopt;
 	nodo = ultimo;
 	ultimo = nodo->siguiente;
 	v = nodo->valor;
@@ -27,28 +31,41 @@ int Pila::extraer()
 	return v;
 	
 }
-int Pila::cima()
+Proceso Pila::cima()
 {
-	pnodoPila nodo;
-	if(!ultimo)
-		return 0;
+	//pnodoPila nodo;
+	//if(!ultimo)
+		//return nullopt;
 	return ultimo->valor;
 	
 }
 void Pila::mostrar()
 {
 	pnodoPila aux = ultimo;
-	cout << "\El contenido de la pila es: ";
+	cout << "\El contenido de la pila es: \n";
 	while(aux) {
-		cout << "->" << aux->valor;
+		Proceso val = aux->valor;
+		cout << "->";
+		val.toString();
 		aux = aux->siguiente;
 	}
 	cout << endl;
 	
 }
+
 int Pila::getLongitud()
 {
 	return this->longitud;
+}
+void Pila::vaciar()
+{
+	pnodoPila aux;
+	while(ultimo) {
+		aux = ultimo;
+		ultimo = ultimo->siguiente;
+		delete aux;
+		longitud--;
+	}
 }
 Pila::~Pila()
 {
@@ -60,4 +77,5 @@ Pila::~Pila()
 	}
 		
 }
+
 

@@ -1,5 +1,6 @@
 #ifndef PILA_HPP
 #define PILA_HPP
+#include "Proceso.hpp"
 #include "NodoPila.hpp"
 
 
@@ -8,11 +9,12 @@ class Pila
 public:
 	Pila();
 	~Pila();
-	void insertar(int v);
-	int extraer();
-	int cima();
+	void insertar(Proceso v);
+	Proceso extraer();
+	Proceso cima();
 	void mostrar();
 	int getLongitud();
+	void vaciar();
 	
 private:
 	pnodoPila ultimo;

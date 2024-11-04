@@ -2,12 +2,13 @@
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
+#include <string>
 
 Proceso::Proceso()
 {
 	this->tipo = (rand() %2);
 	this->numerounico = (rand() % 700 + 300); //num entre 300 y 999
-	this->estado = (rand() %2);
+	this->estado = 0;
 	setNombrerand();
 }
 
@@ -26,10 +27,10 @@ bool Proceso::getEstado()
 { return this->estado; }
 bool Proceso::getTipo()
 { return this->tipo; }
-char Proceso::getNombre()
+char* Proceso::getNombre()
 { 
-	cout << this->nombre;
-	return this->nombre[10]; }
+	
+	return this->nombre; }
 void Proceso::setNumerounico(int num)
 { 
 		if(num <= 300)
@@ -50,6 +51,20 @@ void Proceso::setNombrerand()
 				this->nombre[i] = '0' + (random_char - 52);
 		}
 		this->nombre[9] = '\0';
+}
+void Proceso::toString()
+{
+	cout << "Nombre: " << this->nombre << " Numero Unico: " << this->numerounico << " Estado: " << " Tipo: ";
+	if (tipo==1)
+		cout << "Tiempo real";
+	else
+		cout << "Normal";
+	cout << " Estado: ";
+	if (estado==1)
+		cout << "Ejecucion";
+	else
+		cout << "Parado";
+	cout << endl; 
 }
 void Proceso::setombrenorandom()
 {}

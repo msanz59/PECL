@@ -14,20 +14,21 @@ public:
 	int getPrioridad();
 	bool getEstado();
 	bool getTipo();
-	char getNombre();
+	char* getNombre();
 	void setNumerounico(int num);
 	void setNombrerand();
 	void setEstado(bool est);
 	void setPrioridad(int num);
 	void setTipo(int tip);
+	void toString();
 	~Proceso();
 	
 private:
 	int numerounico;
-	char nombre[10];
 	bool estado;
 	int prioridad;
 	bool tipo;
+	char nombre[10];
 
 
 };

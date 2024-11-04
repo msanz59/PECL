@@ -1,16 +1,18 @@
 #include <iostream>
+#include "Proceso.hpp"
+
 using namespace std;
 
 class NodoCola
 {
 public:
-	NodoCola(int v, NodoCola* sig = NULL);
+	NodoCola(Proceso v, NodoCola* sig = NULL);
 	~NodoCola();
 
 
 
 private:
-	int valor;
+	Proceso valor;
 	NodoCola*siguiente;
 	
 	friend class Cola;
