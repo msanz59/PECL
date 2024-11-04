@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="PECL" Database="" Version="10000">
-  <Project Name="PECL" Path="PECL/PECL.project" Active="Yes"/>
+  <Project Name="PECLSanzPalomarMiguel" Path="PECL/PECL.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
-      <Project Name="PECL" ConfigName="Debug"/>
+      <Project Name="PECLSanzPalomarMiguel" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
-      <Project Name="PECL" ConfigName="Release"/>
+      <Project Name="PECLSanzPalomarMiguel" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

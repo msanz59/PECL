@@ -1,7 +1,10 @@
 #include "NodoLista.hpp"
 
-NodoLista::NodoLista()
+NodoLista::NodoLista(Proceso v, NodoLista* sig, NodoLista* prev)
 {
+	valor = v;
+	siguiente = sig;
+	anterior = prev;
 }
 
 NodoLista::~NodoLista()
