@@ -5,11 +5,29 @@ Cola::Cola()
 	primero=NULL;
 	ultimo=NULL;
 	longitud=0;
+	numprnor=-19;
+	numprtr=0;
 }
 void Cola::insertar(Proceso v)
 {
+	if(v.getTipo()==0)
+	{
+		if (numprtr > 99){
+			numprtr = 0;
+		}
+		v.setPrioridad(v.getPrioridad() + numprtr);
+		numprtr = numprtr + 2;
+	}
+	else{
+		if (numprnor > 19){
+			numprnor = -19;
+		}
+		v.setPrioridad(v.getPrioridad() + 120 + numprnor);
+		numprnor = numprnor + 2;
+	}
 	pnodoCola nuevo;
 	nuevo= new NodoCola(v);
+	
 	if(ultimo)
 		ultimo->siguiente = nuevo;
 		
@@ -18,6 +36,7 @@ void Cola::insertar(Proceso v)
 	if(!primero)
 		primero=nuevo;
 	longitud++;
+	
 }
 void Cola::mostrar()
 {

@@ -2,6 +2,7 @@
 #define GESTOR_HPP
 #include "Pila.hpp"
 #include "Cola.hpp"
+#include "Lista.hpp"
 
 class Gestor
 {
@@ -28,6 +29,8 @@ public:
 	int ProcesosEnGPU1();
 	int ProcesosEnGPU2();
 	int ProcesosEnGPU3();
+	int ProcesosEnListaNormal();
+	int ProcesosEnListaTiempoReal();
 
 	
 private:
@@ -36,6 +39,8 @@ private:
 	Cola gpu1;
 	Cola gpu2;
 	Cola gpu3;
+	Lista normal;
+	Lista tiemporeal;
 	
 
 };

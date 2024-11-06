@@ -15,6 +15,11 @@ public:
 	Proceso verPrimero();
 	int getLongitud();
 	void vaciar();
+	void buscarNombre(char* nom);
+	void mostrarlinea(Proceso p);
+	void buscarProcesos(bool menormayor);
+	Proceso eliminarproceso(int num);
+	void buscarusuario(char* nom);
 	
 private:
 	pnodoLista primero, ultimo;

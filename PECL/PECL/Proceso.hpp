@@ -28,7 +28,7 @@ private:
 	bool estado;
 	int prioridad;
 	bool tipo;
-	char nombre[10];
+	char nombre[6];
 
 
 };

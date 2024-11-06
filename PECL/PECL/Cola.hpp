@@ -17,6 +17,8 @@ public:
 private:
 	pnodoCola primero, ultimo;
 	int longitud;
+	int numprnor;
+	int numprtr;
 
 };
 

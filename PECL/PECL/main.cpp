@@ -16,7 +16,7 @@ int main(int argc, char** argv)
 			 << gestor.ProcesosEnGPU1()  << "\tGPU 2-> " << gestor.ProcesosEnGPU2()  << "\tGPU 3-> "
 			 << gestor.ProcesosEnGPU3()
 			 << " \n\tProcesos en las listas:\n \t\tNormal-> "
-			 << 0 /*gestor.ProcesosEnListaNormal()*/ << "\tTiempo Real-> " << 0 /*gestor.ProcesosEnListaTiempoReal()*/
+			 << gestor.ProcesosEnListaNormal() << "\tTiempo Real-> " << gestor.ProcesosEnListaTiempoReal()
 			 << "\n\tProcesos en el arbol -> " << 0							  /*gestor.ProcesosEnArbol()*/
 			 << "\n";
 		cout << "\t----------------------------------------------------------------"

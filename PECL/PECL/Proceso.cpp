@@ -40,37 +40,36 @@ void Proceso::setNumerounico(int num)
 }
 void Proceso::setNombrerand()
 {
-		for (int i = 0; i<9; i++){
-			int random_char = rand() % 62;
+		this->nombre[0] = 'u';
+		this->nombre[1] = 's';
+		this->nombre[2] = 'e';
+		this->nombre[3] = 'r';
+		
+		for (int i = 0; i<2; i++){
+			int random_char = rand() % 10;
+			this->nombre[i+4] = '0' + random_char;
 			
-			if(random_char < 26)
-				this->nombre[i] = 'A' + random_char;
-			else if(random_char < 52)
-				this->nombre[i] = 'a' + (random_char - 26);
-			else
-				this->nombre[i] = '0' + (random_char - 52);
 		}
-		this->nombre[9] = '\0';
+		this->nombre[6] = '\0';
 }
 void Proceso::toString()
 {
-	cout << "Nombre: " << this->nombre << " Numero Unico: " << this->numerounico << " Estado: " << " Tipo: ";
+	cout << "El proceso cuyo PID es "<< this->getNumerounico() << " es de tipo ";
 	if (tipo==1)
 		cout << "Tiempo real";
 	else
 		cout << "Normal";
-	cout << " Estado: ";
-	if (estado==1)
-		cout << "Ejecucion";
-	else
-		cout << "Parado";
 	cout << endl; 
 }
 void Proceso::setombrenorandom()
 {}
 void Proceso::setEstado(bool est)
-{}
+{
+	this->estado = est;
+}
 void Proceso::setPrioridad(int num)
-{}
+{
+	this->prioridad = num;
+}
 void Proceso::setTipo(int tip)
 {}
