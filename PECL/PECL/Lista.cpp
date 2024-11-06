@@ -19,11 +19,12 @@ void Lista::insertar(Proceso v)
 	nuevo= new NodoLista(v);
 	if(ultimo)
 		ultimo->siguiente = nuevo;
-		
-	ultimo=nuevo;
+		nuevo -> anterior = ultimo;
 	
 	if(!primero)
 		primero=nuevo;
+		
+	ultimo=nuevo;
 	longitud++;
 }
 Proceso Lista::eliminar()

@@ -12,10 +12,17 @@ Pila::Pila()
 }
 void Pila::insertar(Proceso v)
 {
-	pnodoPila nuevo;
-	nuevo = new NodoPila(v, ultimo);
-	ultimo = nuevo;
-	longitud++;
+	if(this->longitud >=48)
+	{
+		return;
+	}
+	else
+	{
+		pnodoPila nuevo;
+		nuevo = new NodoPila(v, ultimo);
+		ultimo = nuevo;
+		longitud++;
+	}
 }
 Proceso Pila::extraer()
 {
