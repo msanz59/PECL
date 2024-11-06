@@ -10,9 +10,7 @@ public:
 	~Lista();
 	
 	void insertar(Proceso v);
-	Proceso eliminar();
 	void mostrar();
-	Proceso verPrimero();
 	int getLongitud();
 	void vaciar();
 	void buscarNombre(char* nom);
@@ -20,6 +18,7 @@ public:
 	void buscarProcesos(bool menormayor);
 	Proceso eliminarproceso(int num);
 	void buscarusuario(char* nom);
+	void cambiarprioridad(int num);
 	
 private:
 	pnodoLista primero, ultimo;

@@ -33,7 +33,7 @@ void Gestor::borraProcesosPila()
 }
 void Gestor::buscarProcesoPorNombreUsuario()
 {
-	char* nom;
+	char nom[6];
 	cout << "Introduce el nombre de usuario: ";
 	cin >> nom;
 	normal.buscarusuario(nom);
@@ -46,7 +46,11 @@ void Gestor::buscarProcesos()
 }
 void Gestor::cambiarPrioridadProcesoPorPID()
 {
-	
+	cout << "Introduce PID: ";
+	int antiguopid;
+	cin >> antiguopid;
+	normal.cambiarprioridad(antiguopid);
+	tiemporeal.cambiarprioridad(antiguopid);
 }
 void Gestor::eliminarProcesoPorPID()
 {

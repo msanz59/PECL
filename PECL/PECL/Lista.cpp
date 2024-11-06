@@ -1,5 +1,5 @@
 #include "Lista.hpp"
-
+#include <cstring>
 Lista::Lista()
 {
 	primero=nullptr;
@@ -172,20 +172,41 @@ Proceso Lista::eliminarproceso(int num)
 	
 }
 
-void Lista::buscarusuario(char * nom)
+void Lista::buscarusuario(char nom[6])
 {
 	int i = 0;
 	pnodoLista n = primero;
 	Proceso p = n->valor;
 	while(n){
-		if(p.getNombre() == nom){
+		if(strncmp(p.getNombre(), nom, 6) == 0){
 			Proceso p = n->valor;
 			mostrarlinea(p);
+			p.toString();
 		}
 		n = n->siguiente;
 		i++;
 	}
 	if (i == 0){
 		cout << endl;
+	}
+}
+
+void Lista::cambiarprioridad(int num)
+{
+	pnodoLista n = primero;
+	while(n){
+		if(n->valor.getNumerounico() == num){
+			Proceso p = n->valor;
+			cout << "PID         Usuario         Tipo         Estado         Prioridad" << endl;
+			mostrarlinea(p);
+			cout << "Introduzca la nueva prioridad: ";
+			int num;
+			cin >> num;
+			p.setPrioridad(num);
+			mostrarlinea(p);
+			return;
+
+		}
+		n = n->siguiente;
 	}
 }
