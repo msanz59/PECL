@@ -21,6 +21,7 @@ public:
 	void setPrioridad(int num);
 	void setTipo(int tip);
 	void toString();
+	
 	~Proceso();
 	
 private:

@@ -16,6 +16,7 @@ public:
 	int getLongitud();
 	void vaciar();
 	
+	
 private:
 	pnodoPila ultimo;
 	int longitud;

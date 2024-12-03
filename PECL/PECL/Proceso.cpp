@@ -7,7 +7,8 @@
 Proceso::Proceso()
 {
 	this->tipo = (rand() %2);
-	this->numerounico = (rand() % 700 + 300); //num entre 300 y 999
+	int numx = (rand() % 700 + 300);
+	this->numerounico =  //num entre 300 y 999
 	this->estado = 0;
 	setNombrerand();
 }

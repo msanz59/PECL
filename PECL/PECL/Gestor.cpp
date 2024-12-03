@@ -14,6 +14,7 @@ void Gestor::genera12Procesos()
 {
 	for (int i = 0; i<12; i++){
 		Proceso proceso;
+		
 		this->pila.insertar(proceso);
 	}
 	cout<<"hola mundo";
@@ -145,7 +146,10 @@ void Gestor::muestraProcesosTiempoReal()
 }
 void Gestor::reiniciar()
 {
-	
+	this->borraProcesosColas();
+	this->borraProcesosPila();
+	this->tiemporeal.vaciar();
+	this->normal.vaciar();
 }
 int Gestor::ProcesosEnPila()
 {
