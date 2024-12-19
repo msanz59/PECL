@@ -2,6 +2,7 @@
 #define NODOPILA_HPP
 #include <iostream>
 #include "Proceso.hpp"
+#include <string>
 
 using namespace std;
 class NodoPila

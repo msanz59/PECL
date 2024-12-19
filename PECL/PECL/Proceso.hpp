@@ -3,18 +3,18 @@
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
+#include <string>
 using namespace std;
 
 class Proceso
 {
 public:
 	Proceso();
-	void setombrenorandom();
 	int getNumerounico();
 	int getPrioridad();
 	bool getEstado();
 	bool getTipo();
-	char* getNombre();
+	string getNombre();
 	void setNumerounico(int num);
 	void setNombrerand();
 	void setEstado(bool est);
@@ -29,7 +29,7 @@ private:
 	bool estado;
 	int prioridad;
 	bool tipo;
-	char nombre[6];
+	string nombre;
 
 
 };

@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=msanz
-Date                   :=12/3/2024
+Date                   :=12/13/2024
 CodeLitePath           :=C:/Programacion/Codelite/codelite-amd64-17.0.0/codelite-amd64-17.0.0/codelite
 MakeDirCommand         :=mkdir
 LinkerName             :=g++
@@ -64,7 +64,8 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Programacion\Codelite\codelite-amd64-17.0.0\codelite-amd64-17.0.0\codelite
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Proceso.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix) $(IntermediateDirectory)/Gestor.cpp$(ObjectSuffix) $(IntermediateDirectory)/Pila.cpp$(ObjectSuffix) $(IntermediateDirectory)/Lista.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/Proceso.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoArbol.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix) $(IntermediateDirectory)/Gestor.cpp$(ObjectSuffix) $(IntermediateDirectory)/Pila.cpp$(ObjectSuffix) $(IntermediateDirectory)/Lista.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) \
+	$(IntermediateDirectory)/Arbol.cpp$(ObjectSuffix) 
 
 
 
@@ -95,11 +96,6 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/msanz/Documents/GitHub/PECL/PECL/PECL/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
-
 $(IntermediateDirectory)/Proceso.cpp$(ObjectSuffix): Proceso.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/msanz/Documents/GitHub/PECL/PECL/PECL/Proceso.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Proceso.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Proceso.cpp$(PreprocessSuffix): Proceso.cpp
@@ -109,6 +105,21 @@ $(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix): NodoCola.cpp
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/msanz/Documents/GitHub/PECL/PECL/PECL/NodoCola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix): NodoCola.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix) NodoCola.cpp
+
+$(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix): NodoLista.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/msanz/Documents/GitHub/PECL/PECL/PECL/NodoLista.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/NodoLista.cpp$(PreprocessSuffix): NodoLista.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoLista.cpp$(PreprocessSuffix) NodoLista.cpp
+
+$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix): Cola.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/msanz/Documents/GitHub/PECL/PECL/PECL/Cola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix): Cola.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix) Cola.cpp
+
+$(IntermediateDirectory)/NodoArbol.cpp$(ObjectSuffix): NodoArbol.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/msanz/Documents/GitHub/PECL/PECL/PECL/NodoArbol.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoArbol.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/NodoArbol.cpp$(PreprocessSuffix): NodoArbol.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoArbol.cpp$(PreprocessSuffix) NodoArbol.cpp
 
 $(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix): NodoPila.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/msanz/Documents/GitHub/PECL/PECL/PECL/NodoPila.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix) $(IncludePath)
@@ -130,15 +141,15 @@ $(IntermediateDirectory)/Lista.cpp$(ObjectSuffix): Lista.cpp
 $(IntermediateDirectory)/Lista.cpp$(PreprocessSuffix): Lista.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Lista.cpp$(PreprocessSuffix) Lista.cpp
 
-$(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix): NodoLista.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/msanz/Documents/GitHub/PECL/PECL/PECL/NodoLista.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/NodoLista.cpp$(PreprocessSuffix): NodoLista.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoLista.cpp$(PreprocessSuffix) NodoLista.cpp
+$(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/msanz/Documents/GitHub/PECL/PECL/PECL/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
-$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix): Cola.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/msanz/Documents/GitHub/PECL/PECL/PECL/Cola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix): Cola.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix) Cola.cpp
+$(IntermediateDirectory)/Arbol.cpp$(ObjectSuffix): Arbol.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/msanz/Documents/GitHub/PECL/PECL/PECL/Arbol.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Arbol.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Arbol.cpp$(PreprocessSuffix): Arbol.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Arbol.cpp$(PreprocessSuffix) Arbol.cpp
 
 ##
 ## Clean

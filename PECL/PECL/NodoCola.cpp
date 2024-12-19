@@ -1,4 +1,5 @@
 #include "NodoCola.hpp"
+#include <string>
 
 NodoCola::NodoCola(Proceso v, NodoCola*sig)
 {

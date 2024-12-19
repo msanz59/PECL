@@ -1,7 +1,7 @@
 #ifndef NODOLISTA_HPP
 #define NODOLISTA_HPP
 #include "Proceso.hpp"
-
+#include <string>
 class NodoLista
 {
 public:

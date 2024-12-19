@@ -1,4 +1,5 @@
 #include "NodoLista.hpp"
+#include <string>
 
 NodoLista::NodoLista(Proceso v, NodoLista* sig, NodoLista* prev)
 {

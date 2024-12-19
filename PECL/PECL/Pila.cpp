@@ -1,7 +1,10 @@
 #include "Pila.hpp"
+
 #include "Proceso.hpp"
 #include <iostream>
 #include <optional>
+#include <string>
+
 using namespace std;
 
 Pila::Pila()
@@ -70,6 +73,8 @@ void Pila::vaciar()
 	while(ultimo) {
 		aux = ultimo;
 		ultimo = ultimo->siguiente;
+		Proceso paux = aux->valor;
+		PIDSborrados.push_back(paux.getNumerounico());
 		delete aux;
 		longitud--;
 	}
@@ -84,5 +89,12 @@ Pila::~Pila()
 	}
 		
 }
+vector<int> Pila::getPIDSborrados()
+{
+	return this->PIDSborrados;
+}
 
-
+void Pila::borrarPIDSborrados()
+{
+	PIDSborrados.clear();
+}

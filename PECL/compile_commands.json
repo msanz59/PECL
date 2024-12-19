@@ -1,16 +1,4 @@
 [{
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Proceso.hpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Proceso.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Proceso.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
- }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoPila.hpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoPila.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoPila.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
- }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.hpp",
-  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
- }, {
   "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Pila.hpp",
   "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
   "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Pila.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Pila.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
@@ -23,13 +11,21 @@
   "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
   "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Lista.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Lista.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\main.cpp",
+  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Proceso.hpp",
   "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\main.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Proceso.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Proceso.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Gestor.hpp",
+  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoArbol.hpp",
   "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Gestor.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Gestor.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoArbol.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoArbol.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.hpp",
+  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Arbol.hpp",
+  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Arbol.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Arbol.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
   "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Proceso.cpp",
   "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
@@ -38,6 +34,18 @@
   "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.cpp",
   "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
   "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoCola.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoLista.cpp",
+  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoLista.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoLista.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Cola.cpp",
+  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Cola.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Cola.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoArbol.cpp",
+  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoArbol.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoArbol.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
   "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoPila.cpp",
   "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
@@ -59,11 +67,19 @@
   "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
   "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Lista.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Lista.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoLista.cpp",
+  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Gestor.hpp",
   "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoLista.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoLista.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Gestor.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Gestor.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Cola.cpp",
+  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\main.cpp",
   "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
-  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Cola.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Cola.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\main.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoPila.hpp",
+  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoPila.hpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\NodoPila.hpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Arbol.cpp",
+  "directory": "C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL",
+  "command": "clang++ -c C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Arbol.cpp -o C:\\Users\\msanz\\Documents\\GitHub\\PECL\\PECL\\PECL\\Arbol.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }]

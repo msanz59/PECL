@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Proceso.hpp"
-
+#include <string>
 using namespace std;
 
 class NodoCola

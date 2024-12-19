@@ -2,6 +2,8 @@
 #define PILA_HPP
 #include "Proceso.hpp"
 #include "NodoPila.hpp"
+#include <string>
+#include <vector>
 
 
 class Pila
@@ -15,11 +17,15 @@ public:
 	void mostrar();
 	int getLongitud();
 	void vaciar();
+	vector<int> getPIDSborrados();
+	void borrarPIDSborrados();
 	
 	
 private:
 	pnodoPila ultimo;
 	int longitud;
+	vector<int> PIDSborrados;
+	
 
 };
 

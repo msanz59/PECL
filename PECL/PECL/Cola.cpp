@@ -1,4 +1,5 @@
 #include "Cola.hpp"
+#include <string>
 
 Cola::Cola()
 {
@@ -41,10 +42,32 @@ void Cola::insertar(Proceso v)
 void Cola::mostrar()
 {
 	pnodoCola aux = primero;
-	cout << "\tEl contenido de la cola es: \n" ;
+	
 	while(aux){
-		cout << "->	";
-		aux->valor.toString();
+		
+		Proceso p = aux->valor;
+		cout << "El proceso cuyo PID es " << p.getNumerounico() << " es de tipo ";
+		if (p.getTipo()==1){
+		cout << "Tiempo real, ";
+		
+		}
+		else{
+		cout << "Normal, ";
+		
+		}
+		cout << "su estado es ";
+		if(p.getEstado()==0)
+	{
+		cout << "Parado";
+	}
+	else{
+		cout << "Ejec.";
+	}
+		cout << " y su prioridad es: " << p.getPrioridad();
+		cout << endl;
+		
+		
+		
 		aux = aux->siguiente;
 	}
 	cout<<endl;
@@ -73,6 +96,8 @@ int Cola::getLongitud(){
 }
 void Cola::vaciar(){
 	while(primero){
+		Proceso paux = primero->valor;
+		PIDCborrados.push_back(paux.getNumerounico());
 		eliminar();
 	}
 }
@@ -83,3 +108,13 @@ Cola::~Cola()
 	}
 }
 
+
+
+vector<int> Cola::getPIDSborrados()
+{
+	return this->PIDCborrados;
+}
+void Cola::borrarPIDSborrados()
+{
+	PIDCborrados.clear();
+}

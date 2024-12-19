@@ -1,5 +1,7 @@
 #include "Lista.hpp"
-#include <cstring>
+
+#include <string>
+using namespace std;
 Lista::Lista()
 {
 	primero=nullptr;
@@ -59,6 +61,8 @@ void Lista::vaciar()
 	
 	while (n != nullptr){
 		pnodoLista siguiente = n->siguiente;
+		//Proceso paux = n->valor;
+		//PIDLborrados.push_back(paux.getNumerounico());
 		delete n;
 		n = siguiente;
 		longitud--;
@@ -141,13 +145,13 @@ void Lista::buscarProcesos(bool menormayor)
 Proceso Lista::eliminarproceso(int num)
 {
 	pnodoLista n = primero;
-	
+	Proceso eliminado;
 	while(n){
-		if(n->valor.getNumerounico() == num){
+		eliminado = n->valor;
+		int nump = eliminado.getNumerounico();
+		if(nump == num){
 			cout << "PID         Usuario         Tipo         Estado         Prioridad" << endl;
 			
-			
-			Proceso eliminado = n->valor;
 			eliminado.setEstado(0);
 			mostrarlinea(eliminado);
 			if(n->anterior){
@@ -167,24 +171,30 @@ Proceso Lista::eliminarproceso(int num)
 			return eliminado;
 		}
 		n = n->siguiente;
+		
 	}
+	Proceso pfalso;
+	pfalso.setPrioridad(1999);
+	return pfalso;
+	
 	
 	
 }
-
-void Lista::buscarusuario(char nom[6])
+void Lista::buscarusuario(string nom)
 {
 	int i = 0;
 	pnodoLista n = primero;
-	Proceso p = n->valor;
+	
 	while(n){
-		if(strncmp(p.getNombre(), nom, 6) == 0){
+		Proceso p = n->valor;
+		string nomp = p.getNombre();
+		if(nom == nomp){
 			Proceso p = n->valor;
 			mostrarlinea(p);
-			p.toString();
+			
 		}
 		n = n->siguiente;
-		i++;
+		//i++;
 	}
 	if (i == 0){
 		cout << endl;
@@ -195,18 +205,29 @@ void Lista::cambiarprioridad(int num)
 {
 	pnodoLista n = primero;
 	while(n){
-		if(n->valor.getNumerounico() == num){
-			Proceso p = n->valor;
+		Proceso p = n->valor;
+		int nump = p.getNumerounico();
+		if(nump == num){
+			
 			cout << "PID         Usuario         Tipo         Estado         Prioridad" << endl;
 			mostrarlinea(p);
 			cout << "Introduzca la nueva prioridad: ";
 			int num;
 			cin >> num;
-			p.setPrioridad(num);
-			mostrarlinea(p);
+			n->valor.setPrioridad(num);
+			mostrarlinea(n->valor);
 			return;
 
 		}
 		n = n->siguiente;
 	}
+}
+
+vector<int> Lista::getPIDSborrados()
+{
+	return this->PIDLborrados;
+}
+void Lista::borrarPIDSborrados()
+{
+	PIDLborrados.clear();
 }

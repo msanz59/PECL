@@ -1,5 +1,6 @@
 #include <Gestor.hpp>
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main(int argc, char** argv)
@@ -17,7 +18,7 @@ int main(int argc, char** argv)
 			 << gestor.ProcesosEnGPU3()
 			 << " \n\tProcesos en las listas:\n \t\tNormal-> "
 			 << gestor.ProcesosEnListaNormal() << "\tTiempo Real-> " << gestor.ProcesosEnListaTiempoReal()
-			 << "\n\tProcesos en el arbol -> " << 0							  /*gestor.ProcesosEnArbol()*/
+			 << "\n\tProcesos en el arbol -> " << gestor.ProcesosEnArbol()
 			 << "\n";
 		cout << "\t----------------------------------------------------------------"
 				"------\n\n";
@@ -111,25 +112,25 @@ int main(int argc, char** argv)
 			gestor.reiniciar();
 			break;
 		case 'P':
-			//...;
+			 gestor.pintarArbol();
 			break;
 		case 'Q':
-			//...;
+			gestor.mostrarNormal();
 			break;
 		case 'R':
-			//...;
+			gestor.mostrarTiemporeal();
 			break;
 		case 'T':
-			//...;
+			gestor.mostrarInorden();
 			break;
 		case 'U':
-			//...;
+			gestor.mostrarMayorMenorArbol();
 			break;
 		case 'V':
-			//...;
+			gestor.mostrarProcesosHoja();
 			break;
 		case 'W':
-			//...;
+			gestor.eliminarPrioridadArbol();
 			break;
 		case 'S':
 			cout << "Saliendo del programa...\n";

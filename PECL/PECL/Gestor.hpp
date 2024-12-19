@@ -3,6 +3,10 @@
 #include "Pila.hpp"
 #include "Cola.hpp"
 #include "Lista.hpp"
+#include "Arbol.hpp"
+#include <string>
+#include <vector>
+#include <random>
 
 class Gestor
 {
@@ -24,6 +28,14 @@ public:
 	void eliminarProcesoPorPID();
 	void cambiarPrioridadProcesoPorPID();
 	void reiniciar();
+	void reutilizarPID(int pid);
+	void pintarArbol();
+	void mostrarMayorMenorArbol();
+	void mostrarInorden();
+	void mostrarTiemporeal();
+	void mostrarNormal();
+	void eliminarPrioridadArbol();
+	void mostrarProcesosHoja();
 	int ProcesosEnPila();
 	int ProcesosEnGPU0();
 	int ProcesosEnGPU1();
@@ -31,7 +43,8 @@ public:
 	int ProcesosEnGPU3();
 	int ProcesosEnListaNormal();
 	int ProcesosEnListaTiempoReal();
-
+	int ProcesosEnArbol();
+	
 	
 private:
 	Pila pila;
@@ -41,6 +54,11 @@ private:
 	Cola gpu3;
 	Lista normal;
 	Lista tiemporeal;
+	Arbol arbol;
+	Proceso praiz;
+	vector<int> PIDV;
+	vector<int> Preal;
+	vector<int> Pnormal;
 	
 
 };
